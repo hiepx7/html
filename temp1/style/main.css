@@ -1,0 +1,27 @@
+/* Global setting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* CSS header */
+.hiep{
+    height: 500px;
+    width: 200px;
+    padding-top: 100px;
+    background-color: #000;
+}
+
+.hiep__tay{
+    width: 80px;
+    /* height: 50%; */
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: #fff;
+}
