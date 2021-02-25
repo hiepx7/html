@@ -1,0 +1,92 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.4;
+  /* padding: 0 5px; */
+  width: 99%;
+  margin: 0 auto;
+}
+h2 {
+  font-weight: bold;
+  color: black;
+  margin: 20px 0;
+}
+
+/* HEADER */
+header {
+  margin: 20px 0;
+}
+header h1 {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 5px 0;
+}
+
+/* LINK */
+.link {
+  margin: 10px 0;
+}
+
+/* COFFEE */
+
+.introCoffee {
+  color: brown;
+  text-align: justify;
+}
+.introCoffee h2:first-child {
+  text-align: center;
+}
+.introCoffee__text {
+  margin-bottom: 20px;
+}
+.introCoffee__text p:nth-child(2) {
+  font-style: italic;
+}
+.introCoffee__text p:nth-child(3) {
+  font-weight: bold;
+}
+.introCoffee__text span:first-child {
+  font-weight: bold;
+  font-style: italic;
+}
+.introCoffee__text span:nth-child(2) {
+  color: red;
+}
+
+/* LIST COFFEE */
+.listCoffee ul {
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.listCoffee img {
+  width: 100%;
+}
+
+/* TEA */
+.introTea h2 {
+  text-align: center;
+}
+.introTea p {
+  text-align: right;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+/* LIST TEA */
+.listTea ol {
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.listTea img {
+  width: 100%;
+}
