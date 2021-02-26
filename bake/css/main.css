@@ -172,6 +172,48 @@ header {
 /* SERVICES */
 .services{
   background-image: url(../img/s1.jpg);
-  height: 800px;
   background-size: cover;
+  padding: 4.375rem 0
 }
+.services__content{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.services h2{
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.services__content--item:hover {
+  cursor: pointer;
+}
+.services__content--item h3{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-weight: 500;
+  color: black;
+}
+.services__content--item p{
+  font-size: 0.875rem;
+  line-height: 1.5625rem;
+  margin-bottom: 0.75rem;
+}
+.services__content--item-icon{
+  background-color: white;
+  width: 6.5625rem;
+  height: 6.5625rem;
+  line-height: 6.5625rem;
+  border: 1px solid #4e2a84;
+  border-radius: 50%;
+  margin: 0 auto;
+  font-size: 4rem;
+  color: #4e2a84;
+  transition: all .5s;
+}
+.services__content--item:hover .services__content--item-icon{
+  color: #ff0e83;
+}
+
+/* GALLERY */
