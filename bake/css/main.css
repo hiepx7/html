@@ -150,3 +150,28 @@ header {
 }
 
 /* NUMBER */
+.number{
+  width: 70%;
+  margin: 0 auto;
+  padding: 4.375rem 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-weight: 700;
+}
+.number__item p:first-child{
+  font-size: 2rem;
+  color: #4e2a84;
+  margin-bottom: 1.5rem;
+}
+.number__item p:last-child{
+  font-size: 1.4rem;
+  letter-spacing: 4px;
+}
+
+/* SERVICES */
+.services{
+  background-image: url(../img/s1.jpg);
+  height: 800px;
+  background-size: cover;
+}
